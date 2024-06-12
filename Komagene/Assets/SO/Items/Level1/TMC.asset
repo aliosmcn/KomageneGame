@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f251135415ab4364387338364dd24e42, type: 3}
+  m_Name: TMC
+  m_EditorClassIdentifier: 
+  itemId: TMC
+  itemName: Marullu Porsiyon
+  itemIcon: {fileID: 21300000, guid: 1e88ad5fca0e21446b512758acc3ca4d, type: 3}
+  prefab: {fileID: 202486057843962612, guid: ec8f280803e5e4440a773acd3b287bac, type: 3}
+  canSlice: 0

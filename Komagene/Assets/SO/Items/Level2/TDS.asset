@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f251135415ab4364387338364dd24e42, type: 3}
+  m_Name: TDS
+  m_EditorClassIdentifier: 
+  itemId: TDS
+  itemName: TabakDomatesLimon
+  itemIcon: {fileID: 0}
+  prefab: {fileID: 7390312170332964337, guid: e028dc40ca3dfac4780a6f4c36bd3c9e, type: 3}
+  canSlice: 0

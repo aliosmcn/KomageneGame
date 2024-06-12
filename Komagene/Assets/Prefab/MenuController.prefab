@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5535977414438837614
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9029761231821705841}
+  - component: {fileID: 8367716995317625986}
+  - component: {fileID: 1329786188412584283}
+  - component: {fileID: 6884671621825165514}
+  m_Layer: 0
+  m_Name: MenuController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9029761231821705841
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5535977414438837614}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8367716995317625986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5535977414438837614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e53a433b872ebce4da304635c081c88b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onStartAnimation: {fileID: 11400000, guid: b32f7c5fc79fbf6478dd09ede401dbc2, type: 2}
+  inputPanel: {fileID: 0}
+--- !u!114 &1329786188412584283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5535977414438837614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbc21342cd34d9c49aa3c5d08df11399, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onStartAnimation: {fileID: 11400000, guid: b32f7c5fc79fbf6478dd09ede401dbc2, type: 2}
+  onEndAnimation: {fileID: 11400000, guid: 2f143e4a55958654d9fb34dcc10eac80, type: 2}
+  inputField: {fileID: 0}
+  scoreBoardPanel: {fileID: 0}
+  placeHolderText: {fileID: 0}
+  inputPanel: {fileID: 0}
+  Names: []
+--- !u!114 &6884671621825165514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5535977414438837614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 913a642dbc361c84c9173f1b46a33514, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onStartAnimation: {fileID: 11400000, guid: b32f7c5fc79fbf6478dd09ede401dbc2, type: 2}
+  onEndAnimation: {fileID: 11400000, guid: 2f143e4a55958654d9fb34dcc10eac80, type: 2}
+  startAnimPrefab: {fileID: 0}
+  endAnimPrefab: {fileID: 0}
