@@ -56,6 +56,7 @@ public class Slice : MonoBehaviour
             {
                 GameObject slicedObject = Instantiate(item.prefab);
                 slicedObject.transform.parent = this.transform;
+                this.GetComponent<Tezgah>().ContainedObject = slicedObject;
                 slicedObject.transform.position = new Vector3(transform.position.x, transform.position.y + 0.38f, transform.position.z);
 
                 return;

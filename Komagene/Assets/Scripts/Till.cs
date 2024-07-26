@@ -23,7 +23,7 @@ public class Till : MonoBehaviour
     BoxCollider objCll;
 
     Animator animator;
-    private bool playerInside = false;
+    [SerializeField] private bool playerInside = false;
     bool canSendItemSO = false;
 
     private void OnEnable()
@@ -93,6 +93,7 @@ public class Till : MonoBehaviour
         if (playerInside && Input.GetKeyDown(KeyCode.Space) && GetComponent<Animator>())
         {
             animator.Play("KasaAnim");
+            Debug.Log("oynadý");
         }
     }
 
