@@ -67,11 +67,8 @@ public class CharacterPickController : Character
                 if (toPickObject == tezgah.ContainedObject)
                 {
                     tezgah.ContainedObject = null;
-                    //MAŞALLAH
+                    //MAŞALLAH 
                 }
-                
-                
-                
             }
         }
         else // --------- ELİM DOLU, İTEMİ BIRAK ----------
