@@ -73,13 +73,13 @@ public class CharacterPickController : Character
         }
         else // --------- ELİM DOLU, İTEMİ BIRAK ----------
         {
-            //YERE BIRAK
+            // YAKINDA MASA YOKSA
             if (closestObjectManager.nearestObject == null)
             {
                 AudioManager.Instance.PlaySFX("drop");
                 SetRbAndColliderActive(true);
                 containingObject.transform.parent = null;
-                containingObject = null;
+                //containingObject = null;
             }
             else //MASAYA BIRAK
             {
